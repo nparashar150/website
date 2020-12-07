@@ -1,7 +1,7 @@
 (function($) {
     "use strict"; 	
 	$(window).on('load', function() {
-		var preloaderFadeOutTime = 200;
+		var preloaderFadeOutTime = 500;
 		function hidePreloader() {
 			var preloader = $('.spinner-wrapper');
 			setTimeout(function() {
