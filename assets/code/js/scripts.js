@@ -16,27 +16,27 @@
             disableOnInteraction: false
 		},
         loop: false,
-        spaceBetween: 100,
-        slidesPerView: 4,
+        spaceBetween: 60,
+        slidesPerView: 5,
 		breakpoints: {
             380: {
-                slidesPerView: 1,
+                slidesPerView: 3,
                 spaceBetween: 10
             },
             516: {
-                slidesPerView: 2,
+                slidesPerView: 3,
                 spaceBetween: 10
             },
             768: {
-                slidesPerView: 3,
+                slidesPerView: 4,
                 spaceBetween: 20
             },
             992: {
-                slidesPerView: 4,
+                slidesPerView: 5,
                 spaceBetween: 30
             },
             1200: {
-                slidesPerView: 5,
+                slidesPerView: 6,
                 spaceBetween: 30
             },
         }
@@ -47,16 +47,16 @@
             disableOnInteraction: false
 		},
         loop: false,
-        spaceBetween: 50,
+        spaceBetween: 30,
         slidesPerView: 8,
 		breakpoints: {
             380: {
-                slidesPerView: 2,
-                spaceBetween: 10
+                slidesPerView: 3,
+                spaceBetween: 5
             },
             516: {
                 slidesPerView: 3,
-                spaceBetween: 15
+                spaceBetween: 10
             },
             768: {
                 slidesPerView: 4,
