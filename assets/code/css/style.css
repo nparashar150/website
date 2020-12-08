@@ -9,7 +9,9 @@ html {
     top:0;
     bottom:0;
     left:0;
-    right:0;
+	right:0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 body, p {
 	color: #f8f1f1;
