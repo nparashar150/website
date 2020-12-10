@@ -860,4 +860,36 @@ a.white {
 	  to {
 		text-shadow: 0 0 3px rgb(250, 128, 128), 0 0 7px rgb(250, 128, 128), 0 0 13px #c94c4c, 0 0 16px #c94c4c, 0 0 18px #c94c4c, 0 0 22px #c94c4c, 0 0 26px #c94c4c;
 	  }
-	}
+}
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+	color: #c94c4c;
+	text-decoration: none;
+}
+
+.navbar-nav > .active > a, .navbar .navbar-nav > .active >
+        a:hover, .navbar .navbar-nav > .active > a:focus {
+    color: rgb(0, 0, 0);
+	background-color: #040404;
+	text-decoration: none;
+}
+
+.navbar-nav {
+	background-color: #000000;
+	color: #c94c4c;
+	border-color: #040404;
+	text-decoration: none;
+}
+
+.navbar-nav > a:hover,
+.navbar-nav > a:focus {
+    text-decoration: none;
+	background-color: #040404;
+	border-bottom: none;
+	color: #f9c0c0;
+}
+
+.navbar-nav > a {
+	text-decoration: none;
+	color: #ffffff;
+	border-bottom: none;
+}
